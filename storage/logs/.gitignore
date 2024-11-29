@@ -1,0 +1,45 @@
+# Laravel & general files
+/.env
+/.env.*
+/vendor/
+/node_modules/
+/public/storage
+/storage/*.key
+/storage/debugbar
+/storage/framework/sessions
+/storage/framework/views
+/storage/framework/cache
+/storage/logs
+
+# Laravel 5 & newer
+/.vagrant/
+/.idea/
+/.phpunit.result.cache
+/.phpunit.cache
+/.composer
+
+# Laravel specific
+/.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+/.idea
+/.vscode
+/.project
+
+# NPM log files
+npm-debug.log
+yarn-error.log
+
+# MacOS
+.DS_Store
+
+# Composer directories
+/composer.lock
+
+# Laravel IDE helpers (if any)
+/_ide_helper.php
+/_ide_helper_models.php
